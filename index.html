@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Pc-proje</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<style>
+    aside > .list-group{
+        position: sticky;
+        top: 60px;
+    }
+
+   
+</style>
+</head>
+
+<body>
+    <!-- NAV -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ADER Bilgisayar Hizmetleri</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Hizmetlerimiz
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Server Çözümleri</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="#">Network Çözümleri</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Güvenlik Sistemleri</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="#">Teknik Destek ve Çözüm</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="#">Bilgisayar Hizmetleri</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Hizmet Ara" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Arama</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" id="info">
+        <div class="row bg-dark text-light p-5 align-items-center ">
+            <div class="col-sm-4 ">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators mb-xl-0">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <h1>Altyapı Sunumu</h1>
+                        <p>Bu modelde, kullanıcılara sanal makineler, depolama ve ağ kaynakları gibi temel altyapı bileşenleri sağlanır. Kullanıcılar, bu kaynakları yönetir ve üzerine kendi uygulamalarını kurarlar.</p>
+                      </div>
+                      <div class="carousel-item">           
+                        <h1>Platform Sunumu</h1>
+                        <p>PaaS modeli, altyapıyı ve işletim sistemini gizler ve uygulama geliştiricilere sadece uygulama oluşturmaya odaklanmalarını sağlayan bir platform sunar. </p>
+                      </div>
+                      <div class="carousel-item">            
+                        <h1>Yazılım Sunumu</h1>
+                        <p>Kullanıcılara belirli bir yazılım uygulamasını çevrimiçi olarak kullanma imkanı sunar. Kullanıcılar genellikle bu yazılımları abonelik modeliyle kiralarlar ve sağlayıcı tarafından yapılır.</p>
+                      </div>
+                    </div>
+                  
+                </div>
+
+            </div>
+            <div class="col-sm-8">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="/images/business.jpg" class="img-fluid" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/CSV_02-1280x717.jpg" class="img-fluid" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/AdobeStock_618283096-1280x717.jpeg" class="img-fluid" alt="...">
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="hero">
+        <div class="row justify-content-center text-center rounded my-5 p-5 border shadow">
+            <div class="col-sm-8">
+                <h1>ADER Sizi Geleceğe Taşır</h1>
+                <p>
+                    Kurulduğumuz 2001 yılı itibari ile profesyonel çizgi dahilinde sürdürmüş olduğumuz hizmet ve ürün sunumlarımızdan biri bilgisayar sistemleridir. Bu bölüm altında bilgisayar ile ilgili aklınıza gelebilecek tüm hizmetler tarafımızdan sunulmakta ve ürünler tedarik edilebilmektedir.
+                </p>
+                <p>
+                    2001 yılı itibari ile sürdürmekte olduğumuz bilgisayar sistemleri çalışmalarımız sağlam bir temel ile oluşturulmuş olup, edindiğimiz tecrübeler, kazandığımız mutlu müşteriler, gelişen teknoloji takibi ve biriken bilgi birikimimiz neticesinde dallanarak içerisinden 6 alt kategori oluşturduk ve aynı sağlam alt yapıyı her birine dahil edebildik.
+                </p>
+            </div>
+        </div>
+        <div class="row" id="product">
+            <div class="col-sm-6">
+                <div class="card mb-3 shadow">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="/images/network.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Bulut Sistemleri</h5>
+                          <p class="card-text">Bulut sistemleri, internet üzerindeki geniş bir ağ üzerinde barındırılan ve erişilebilen bir dizi bilişim kaynağını ifade eder. Bu hizmetlere genellikle bir web tarayıcısı üzerinden erişim sağlarlar.</p>
+                          <a href="#" class="btn btn-outline-primary">İncele</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="col-sm-6">
+                <div class="card shadow">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="/images/yapayzeka.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Yapay Zeka</h5>
+                          <p class="card-text">Yapay zeka, birçok sektörde çeşitli uygulamalara sahiptir. Sağlık sektöründe, hastalıkları tanıma, tedavi planları oluşturma ve hasta takibi gibi görevlerde kullanılır.</p>
+                          <a href="#" class="btn btn-outline-primary">İncele</a>
+                        </div>
+                    </div> 
+                </div>                 
+            </div>
+        </div>
+        <div class="row">
+            <aside class="col-sm-3">
+                <div class="list-group shadow">
+                    <a href="#info" class="list-group-item list-group-item-action">Bilgiler</a>
+                    <a href="#product" class="list-group-item list-group-item-action">Ürünler</a>
+                    <a href="#hero" class="list-group-item list-group-item-action">Görseller</a>
+                    <a href="#article" class="list-group-item list-group-item-action">Makaleler</a>
+                </div>
+
+            </aside>
+            <section class="col-sm-9">
+                <article class="card p-3 mb-3 shadow" id="article">
+                    <img src="https://picsum.photos/id/79/600/240" class="img-thumbnail w-100 mb-3" alt="">
+                    <h2>Makale 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nisi omnis ullam unde molestiae sapiente veritatis alias illo, consectetur corporis?</p>
+                    <p>Dolores aliquam, adipisci, voluptatum qui atque quas sapiente voluptatem, reprehenderit consequuntur molestias modi assumenda? Ipsa, amet. Dolorem sed dicta accusantium?</p>
+                    <p>Consequatur impedit fugiat quos cum magni obcaecati, dolor aliquam veritatis, a distinctio eos aspernatur, molestiae dignissimos fuga quae eum. Vitae!</p>
+                </article>
+                <article class="card p-3 mb-3 shadow">
+                    <img src="https://picsum.photos/id/58/600/240" class="img-thumbnail w-100 mb-3" alt="">
+                    <h2>Makale 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, rem accusantium. Nobis, illo voluptas! Molestiae voluptas inventore voluptatum accusantium eos.</p>
+                    <p>Vero dignissimos consequuntur reprehenderit tempore facere illo repudiandae sapiente culpa hic doloremque commodi nam cumque quasi nesciunt, ex corrupti eveniet.</p>
+                    <p>At quo eos dicta illo beatae distinctio illum, dolorem officia optio neque sed corrupti ut ipsa autem, voluptate repellendus laborum.</p>
+                </article>
+                <article class="card p-3 mb-3 shadow">
+                    <img src="https://picsum.photos/id/42/600/240" class="img-thumbnail w-100 mb-3" alt="">
+                    <h2>Makale 3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit officiis nulla quam temporibus saepe dignissimos repudiandae numquam consequuntur totam? Ullam!</p>
+                    <p>Ducimus voluptatem voluptatibus iste at aut deleniti magnam dolorem, eaque, ullam illo vero aperiam, tempora nostrum quo a deserunt. Quisquam.</p>
+                    <p>Saepe, iure reiciendis earum quisquam incidunt autem voluptate exercitationem deleniti sit quae deserunt velit minima, tempora et, hic esse. Vel!</p>
+                </article>
+                <article class="card p-3 mb-3 shadow">
+                    <img src="https://picsum.photos/id/43/600/240" class="img-thumbnail w-100 mb-3" alt="">
+                    <h2>Makale 4</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat inventore et reiciendis ipsa veniam id velit laudantium totam, fugiat natus.</p>
+                    <p>Reprehenderit odio cumque animi fugiat ullam totam laudantium necessitatibus quasi neque, exercitationem praesentium cupiditate nihil illum dolor fuga repellendus autem.</p>
+                    <p>Illo culpa officia perferendis recusandae libero quia soluta ipsam voluptatibus dolore, eveniet quaerat voluptate cum beatae ullam, repudiandae quibusdam quis.</p>
+                </article>
+                <article class="card p-3 mb-3 shadow">
+                    <img src="https://picsum.photos/id/44/600/240" class="img-thumbnail w-100 mb-3" alt="">
+                    <h2>Makale 5</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit nam dignissimos accusantium consequuntur distinctio. Laudantium cum esse neque sint laborum?</p>
+                    <p>Quasi aliquid ad possimus. Et harum minus excepturi voluptatibus nihil eaque ipsam qui a rem? Magnam maiores debitis facere accusantium?</p>
+                    <p>Ex quibusdam, eius architecto accusamus laudantium at nesciunt distinctio error porro officiis consequuntur exercitationem consectetur aliquid voluptatum odio? Nemo, cupiditate!</p>
+                </article>
+
+            </section>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col"><img src="https://picsum.photos/id/51/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/52/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/53/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/54/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/55/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/56/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/57/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/58/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/59/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/510/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/511/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/512/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/513/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/514/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/515/300/240" alt="" class="img-thumbnail w-100"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <footer class="py-5 my-4 border-top">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Bölümler</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Anasayfa</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Özellikler</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Fiyatlandırma</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Sık Sorulan Sorular</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hakkımızda</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Ürün ve Hizmetler</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Server Çözümleri</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Network Çözümleri</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Güvenlik Sistemleri </a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bilgisayar Satış Hizmetleri</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bilgisayar Hizmetleri</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Online Hizmetler</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bilgisayar Hizmetleri</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Veri Güvenliği Hizmetleri</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Upgrade ve Yedekleme</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Yazılım Hizmeletleri</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Danışmanlık Hizmetleri</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Haber bültenimize abone ol</h5>
+                <p>Bizden gelen yeni bilgilerden anlık haberdar ol.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">E-mail adresi</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="E-mail adresinizi yazınız">
+                  <button class="btn btn-primary" type="button">Kaydol</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-5 border-top">
+            <p>© 2023 Ader Bilgisayar - Tüm hakları saklıdır.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+        
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous">
+    </script>
+        
+    
+    
+</body>
+
+</html>
